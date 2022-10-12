@@ -1,0 +1,24 @@
+header {
+  background-color: #111d13;
+
+  .menu {
+    font-size: 1.3rem;
+
+    li {
+      a {
+        color: white;
+        &:hover {
+          color: forestgreen;
+        }
+      }
+    }
+  }
+
+  .logo {
+    height: 25vh;
+    width: auto;
+  }
+  .burger {
+    background-color: white;
+  }
+}

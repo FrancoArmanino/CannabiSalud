@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-color: #111d13; }
+  header .menu {
+    font-size: 1.3rem; }
+    header .menu li a {
+      color: white; }
+      header .menu li a:hover {
+        color: forestgreen; }
+  header .logo {
+    height: 25vh;
+    width: auto; }
+  header .burger {
+    background-color: white; }
+
+main {
+  background-color: #bdd2a6; }
+  main .imgCarousel {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover; }
+  main .textCarousel {
+    padding-bottom: 45vh;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 4px -3px 5px rgba(80, 77, 77, 0.52); }
+  main .carouselIndicators {
+    color: black; }
+  @media all and (max-width: 576px) {
+    main .imgCarousel {
+      height: 50vh;
+      object-fit: cover; }
+    main .textCarousel {
+      padding-bottom: 0vh; } }
+  main .profesionales:hover {
+    transform: scale(1.07); }
+  main .boton {
+    background-color: green; }
+
+footer .logoFooter {
+  height: 25vh;
+  width: auto; }
+
+footer div {
+  background-color: #111d13; }
